@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SESION 4</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="js/sweetalert2.all.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="mb-3">
+        <table align="center" width="50%" border="0">
+            <tr>
+                <td colspan="3" height="80px" align="center" style="border-collapse: collapse;">
+                    <label class="form-label" style="font-family: Times New Roman;">
+                        <h2> CALCULAR </h2>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" height="40px">
+                    <label class="form-label" style="font-family: Times New Roman;"> Ingrese número :</label>
+                </td>
+                <td align="center">
+                    <input type="number" class="form-control" id="txtNumero" placeholder="0"
+                        style="width: 90%; font-family: Times New Roman;" value="0" required>
+                </td>
+                <td colspan="2" align="left" height="90px">
+                    <input type="button" class="btn btn-primary" value="Calcular" onclick="main();"
+                        style="font-family: Times New Roman;">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    <label class="form-label" style="font-family: Times New Roman; font-size: 12px;">
+                        Numeros Pares
+                    </label>
+                    <br>
+                    <textarea class="form-control" id="txtResultado" style="font-family: Times New Roman;" rows="15"
+                        disabled></textarea>
+                
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/pares.js"></script>
+
+</body>
+
+</html>
